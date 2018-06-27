@@ -1,0 +1,17 @@
+{
+  "name": "gameserver",
+  "version": "1.0.0",
+  "description": "Demo game server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./builds/index.js"
+  },
+  "dependencies": {
+    "@types/node": "^10.3.6",
+    "chess.js": "^0.10.2",
+    "colyseus": "^0.9.3",
+    "express": "^4.13.4"
+  },
+  "author": "nguyen.tam.thi",
+  "license": "MIT"
+}
